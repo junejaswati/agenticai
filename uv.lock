@@ -3406,7 +3406,7 @@ wheels = [
 [[package]]
 name = "stock-picker"
 version = "0.1.0"
-source = { editable = "." }
+source = { virtual = "." }
 dependencies = [
     { name = "crewai" },
     { name = "crewai-tools" },

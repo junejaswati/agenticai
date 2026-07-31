@@ -1,13 +1,10 @@
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
 from crewai.agents.agent_builder.base_agent import BaseAgent
-from crewai_tools import SerperDevTool
 from pydantic import BaseModel, Field
+from crewai_tools import SerperDevTool
 from .tools.push_tool import send_push_notification
 
-# If you want to run a snippet of code before or after the crew starts,
-# you can use the @before_kickoff and @after_kickoff decorators
-# https://docs.crewai.com/concepts/crews#example-crew-class-with-decorators
 
 class TrendingCompany(BaseModel):
     """ A company that is in the news and attracting attention """
@@ -30,7 +27,6 @@ class TrendingCompanyResearchList(BaseModel):
     """ A list of detailed research on all the companies """
     research_list: list[TrendingCompanyResearch] = Field(description="Comprehensive research on all trending companies")
 
-
 @CrewBase
 class StockPicker():
     """StockPicker crew"""
@@ -41,17 +37,17 @@ class StockPicker():
     @agent
     def trending_company_finder(self) -> Agent:
         return Agent(config=self.agents_config['trending_company_finder'],
-                     tools=[SerperDevTool()])
+                     tools=[SerperDevTool()], memory=True)
     
     @agent
     def financial_researcher(self) -> Agent:
         return Agent(config=self.agents_config['financial_researcher'],
-                     tools=[SerperDevTool()])
+                     tools=[SerperDevTool()], memory=True)
 
     @agent
     def stock_picker(self) -> Agent:
         return Agent(config=self.agents_config['stock_picker'], 
-                     tools=[send_push_notification])
+                     tools=[send_push_notification], memory=True)
     
     @task
     def find_trending_companies(self) -> Task:
@@ -71,7 +67,6 @@ class StockPicker():
     def pick_best_company(self) -> Task:
         return Task(
             config=self.tasks_config['pick_best_company'],
-            tool_calls=[send_push_notification]
         )
 
     @crew
@@ -88,10 +83,10 @@ class StockPicker():
         return Crew(
             agents=self.agents,
             tasks=self.tasks, 
-            process=Process.sequential,
+            process=Process.hierarchical,
             verbose=True,
-            tracing=True,
             memory=True,
-            memor_agent=manager
-           
+            tracing=True,
+            manager_agent=manager,
+            embedder={"provider": "openai", "config": {"model": "text-embedding-3-small"}}
         )

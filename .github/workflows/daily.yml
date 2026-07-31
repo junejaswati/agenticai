@@ -2,7 +2,7 @@ name: Daily Agent Run
 
 on:
   schedule:
-    - cron: "15 22 * * *"
+    - cron: "16 02 * * *"
   workflow_dispatch:
 
 jobs:
