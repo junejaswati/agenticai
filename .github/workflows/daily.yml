@@ -2,7 +2,7 @@ name: Daily Agent Run
 
 on:
   schedule:
-    - cron: "16 02 * * *"
+    - cron: "16 15 * * *"
   workflow_dispatch:
 
 jobs:
@@ -23,4 +23,5 @@ jobs:
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
           PUSHOVER_TOKEN: ${{ secrets.PUSHOVER_TOKEN }}
           PUSHOVER_USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
-        run: python main.py
+        run: python src/stock_picker/main.py
+
