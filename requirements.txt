@@ -3,7 +3,6 @@ crewai-tools==1.15.10
 pydantic==2.12.1
 python-dotenv==1.2.2
 requests==2.34.2
-serper==1.0.3
-pypushover==0.2.7
+
 
 
