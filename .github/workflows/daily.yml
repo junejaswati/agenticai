@@ -18,6 +18,9 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      - name: Run agent
+        working-directory: ${{ github.workspace }}
+
       - env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
