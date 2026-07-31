@@ -38,8 +38,4 @@ def run():
 
 
 
-    try:
-        result = StockPicker().crew().kickoff(inputs=inputs)
-        return result
-    except Exception as e:
-        raise Exception(f"An error occurred while running the crew with trigger: {e}")
+    
