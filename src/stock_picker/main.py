@@ -22,6 +22,8 @@ SERPER_API_KEY = os.getenv("SERPER_API_KEY")
 PUSHOVER_TOKEN = os.getenv("PUSHOVER_TOKEN")
 PUSHOVER_USER_KEY = os.getenv("PUSHOVER_USER")
 
+print("Starting the crew...")
+
 def run():
     """
     Run the crew.
@@ -37,6 +39,6 @@ def run():
         raise Exception(f"An error occurred while running the crew: {e}")
 
 
-
+print("ending the crew...")
 
     
