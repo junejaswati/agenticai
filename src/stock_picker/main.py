@@ -17,11 +17,7 @@ warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 # Replace with inputs you want to test with, it will automatically
 # interpolate any tasks and agents information
 
-load_dotenv()
 
-SERPER_API_KEY = os.getenv("SERPER_API_KEY")
-PUSHOVER_TOKEN = os.getenv("PUSHOVER_TOKEN")
-PUSHOVER_USER_KEY = os.getenv("PUSHOVER_USER")
 
 print("Starting the crew...")
 
