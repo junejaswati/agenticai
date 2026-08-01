@@ -1,97 +1,95 @@
-## Investment Decision: **Microsoft**
+Below is my investment decision based on the research available as of **2026-07-31**.
 
-### Why Microsoft was chosen
-Microsoft is the strongest overall investment candidate in the research set because it combines:
-- **Clear AI monetization**
-- **Excellent market positioning**
-- **Large-scale, durable profitability**
-- **Strong enterprise demand**
-- **Less speculative execution risk than private or early-stage names**
+## Chosen company: **Nvidia**
 
-The key research point is that Microsoft is no longer just benefiting from AI sentiment; it is showing **measurable fundamental traction**. Reuters reported that:
-- Microsoft added **nearly $450 billion in market value in a single day** after an upbeat Azure forecast
-- Its market cap rose to about **$3.35 trillion**
-- Its **AI business surpassed a $37 billion annual revenue run rate**
+### Why I chose Nvidia
+Nvidia is the strongest overall investment choice in this set because it combines:
+- **Category leadership**: It remains the dominant GPU and AI infrastructure platform across the AI stack.
+- **Direct exposure to AI demand**: Continued expansion in AI compute spending benefits Nvidia more directly than most of the other names.
+- **Best balance of growth and durability**: Unlike many of the other companies, Nvidia is not just a promising story; it already has an established market position and real strategic leverage.
+- **Ecosystem control**: Nvidia is deeply embedded in hyperscalers, data centers, startups, and enterprise AI deployments, which gives it broad, recurring relevance.
+- **Long-term optionality**: Even with rising competition and scrutiny, Nvidia still appears best positioned to capture ongoing AI infrastructure growth.
 
-That matters because it suggests Microsoft’s AI strategy is already translating into meaningful revenue, not just future optionality. Azure, enterprise software, and AI services reinforce one another, creating a strong compounding platform. Among the companies listed, Microsoft has the best mix of:
-1. **Scale**
-2. **Quality of earnings**
-3. **AI leadership**
-4. **Recurring revenue**
-5. **Lower strategic uncertainty**
-
-In an investment comparison, Microsoft stands out as the most balanced choice: it has upside from AI, but unlike the private or early-stage names, it also has proven execution and a mature business model.
-
-### Why it is the best fit now
-Microsoft is attractive in the context of the current market because it offers:
-- **Immediate AI monetization**
-- **Strong customer demand across enterprise software and cloud**
-- **A proven ability to turn platform leadership into revenue growth**
-- **A high-quality defensive growth profile**
-
-Even though valuation may already reflect optimism, Microsoft still looks like the best risk-adjusted investment among the companies provided. It is the clearest example of a company that can both **benefit from AI adoption** and **convert that adoption into financial results**.
+### Why Nvidia is the best pick versus the others
+Some of the other companies have compelling upside, but Nvidia has the strongest combination of scale, momentum, and proven strategic importance. It is the best choice for an investor who wants direct, high-conviction exposure to the AI buildout without taking on the extreme uncertainty of early-stage startups or the narrow event-driven profile of acquisition targets.
 
 ---
 
 ## Companies not selected
 
-### Apple — not selected
-Apple remains a high-quality franchise, but it was not chosen because the latest research shows **near-term execution pressure**:
-- Shares fell nearly **10%**
-- Revenue guidance of **9% to 11%** was below expectations of about **12%**
-- Strong iPhone demand is being constrained by **supply-chain bottlenecks**
+### **Meta Platforms**
+Meta is a strong large-cap AI candidate and arguably the closest alternative to Nvidia in terms of investment quality. It has:
+- massive cash generation,
+- serious AI investment capacity,
+- chip development plans,
+- and potential upside from compute leasing and AI product monetization.
 
-Apple’s long-term brand strength is intact, but the current setup is weaker for investment because the market is reacting to **supply constraints and disappointing guidance**, not accelerating growth. It is still a quality company, but it is not the best choice right now.
+**Why it was not selected:**  
+Meta is still more of a broad platform company using AI as a strategic layer, while Nvidia is the purest and most direct beneficiary of AI infrastructure expansion. Meta is excellent, but Nvidia has the cleaner exposure to the core AI hardware spend that is driving the current market cycle.
 
-### MediaTek — not selected
-MediaTek has a compelling strategy and is making a bold move into AI data-center chips, but it was not selected because the opportunity is still **early and uncertain**:
-- A **$5 billion financing budget** supports expansion
-- Expected **$2 billion+** in AI data-center chip revenue in 2026
-- However, it faces intense competition in a capital-intensive market
+---
 
-MediaTek is interesting for future upside, but its AI infrastructure push is still in the execution phase. Compared with Microsoft, it has more uncertainty and less proven AI monetization.
+### **Anthropic**
+Anthropic is one of the leading frontier AI labs and has strong strategic positioning.
 
-### Anthropic — not selected
-Anthropic has strong AI momentum, especially with the launch of **Claude Opus 5** and potential IPO plans. However, it was not selected because it is still a **private, highly uncertain, and strategically complex** investment:
-- Frontier AI competition is intense
-- Monetization and moat durability remain unclear
-- IPO timing adds additional uncertainty
+**Why it was not selected:**  
+It is still private, highly capital-intensive, and exposed to major execution, compute, and regulatory risk. It has high upside, but the investment is less accessible and far less certain than Nvidia.
 
-Anthropic has high upside, but it is not the best investment choice for this decision because Microsoft offers a much better balance of growth and certainty.
+---
 
-### Accipiter Bio — not selected
-Accipiter Bio is a very early-stage biotech company focused on AI drug discovery. It was not selected because it is **too speculative**:
-- Still early in development
-- Success depends on scientific, clinical, and regulatory outcomes
-- Venture-style risk is very high
+### **Safe Superintelligence**
+This is a highly ambitious frontier AI company with enormous implied upside and notable backing.
 
-While the theme is attractive, Accipiter is far riskier than Microsoft and far less proven commercially.
+**Why it was not selected:**  
+It is even more speculative than Anthropic: no public product, no visible commercial traction, and an extremely uncertain timeline to monetization. The upside is potentially massive, but the risk is too high relative to Nvidia’s established position.
 
-### K2 Space — not selected
-K2 Space is well-funded and has strong growth potential in satellites and defense-adjacent infrastructure, but it was not selected because it remains a **capital-intensive hardware business** with long execution cycles:
-- Raised **$500 million** at a **$6.8 billion valuation**
-- Strong market interest, but heavy dependence on manufacturing and deployment execution
+---
 
-The opportunity is real, but the risk profile is much higher and the path to durable returns is less certain than Microsoft’s.
+### **GlobalFoundries**
+GlobalFoundries has become more attractive due to strategic U.S. semiconductor support and AI-related technology work.
 
-### Alphabet — not selected
-Alphabet is a very strong company and would be a close contender, but it was not selected because Microsoft has the stronger overall investment case in this set:
-- Google Cloud revenue rose **82%**
-- Alphabet increased 2026 capex to **$195 billion to $205 billion**
-- There are concerns about **cash burn** and **Gemini delays**
+**Why it was not selected:**  
+It is a more grounded industrial investment than many AI names, but its upside is likely more modest and less directly tied to AI platform capture than Nvidia. It is interesting, but not the top choice.
 
-Alphabet has excellent long-term potential and is clearly a top AI beneficiary. However, the heavier spending burden and execution concerns make it slightly less attractive than Microsoft right now on a risk-adjusted basis.
+---
 
-### Amazon — not selected
-Amazon is another strong candidate, especially with:
-- AWS revenue up **37%**
-- Advertising sales up **26%**
-- A powerful cloud and commerce ecosystem
+### **IonQ**
+IonQ’s SkyWater acquisition improves its strategic position in quantum computing.
 
-It was not selected because the company is also carrying a very heavy capital spending plan, and the market is still weighing whether those investments will produce returns quickly enough. Amazon is excellent for long-term investors, but Microsoft has a clearer and stronger current investment thesis.
+**Why it was not selected:**  
+Quantum computing remains early and uncertain. The company has long-duration optionality, but it lacks Nvidia’s current earnings leverage, market dominance, and near-term certainty.
+
+---
+
+### **SkyWater Technology**
+SkyWater is mainly an acquisition target with event-driven upside.
+
+**Why it was not selected:**  
+Its standalone investment case is limited because it is being acquired. The return profile is tied to deal completion rather than independent growth.
+
+---
+
+### **Freehand**
+Freehand is an interesting seed-stage company focused on AI supply chain automation.
+
+**Why it was not selected:**  
+It is too early-stage and carries meaningful product, adoption, and scaling risk. The business model may be attractive, but it is not as investable or resilient as Nvidia.
+
+---
+
+### **AZIO AI**
+AZIO AI is tied to a major AI data center infrastructure project in Texas.
+
+**Why it was not selected:**  
+It is highly speculative and execution-heavy. The company’s value depends on successful land, power, financing, permitting, and customer execution for a 500 MW campus. That makes it much riskier than Nvidia.
 
 ---
 
 ## Final conclusion
-**Microsoft is the best company for investment from the provided list.**  
-It has the strongest combination of AI monetization, market leadership, profitability, and execution quality, making it the most compelling risk-adjusted opportunity as of **2026-07-31**.
+**Nvidia is the best investment choice** from the provided research set because it has the strongest combination of:
+- market leadership,
+- direct AI infrastructure exposure,
+- proven commercial relevance,
+- and durable long-term upside.
+
+It is not the highest-risk/highest-upside name in the list, but it is the **best overall risk-adjusted investment** among the companies provided.

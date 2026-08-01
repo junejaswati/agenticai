@@ -2,7 +2,7 @@ name: Daily Agent Run
 
 on:
   schedule:
-    - cron: "30 0 * * *"   # 8 PM EST
+    - cron: "48 0 * * *"   # 8 PM EST
   workflow_dispatch:
 
 jobs:
@@ -24,7 +24,7 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
           PUSHOVER_TOKEN: ${{ secrets.PUSHOVER_TOKEN }}
-          PUSHOVER_USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
+          PUSHOVER_USER: ${{ secrets.PUSHOVER_USER }}
           PYTHONPATH: src
         run: python -m stock_picker.main
 
