@@ -80,7 +80,7 @@ class StockPicker():
             allow_delegation=True
             
         )
-         print("ending the manager...")
+       
         return Crew(
             agents=self.agents,
             tasks=self.tasks, 
