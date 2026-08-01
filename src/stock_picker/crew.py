@@ -74,7 +74,7 @@ class StockPicker():
         """Creates the StockPicker crew"""
         # To learn how to add knowledge sources to your crew, check out the documentation:
         # https://docs.crewai.com/concepts/knowledge#what-is-knowledge
-print("Creating the crew...")
+        print("Creating the crew...")
         manager = Agent(
             config=self.agents_config['manager'],
             allow_delegation=True
