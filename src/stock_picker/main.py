@@ -2,7 +2,6 @@
 import sys
 import warnings
 import os
-from dotenv import load_dotenv
 import requests
 
 from datetime import datetime
@@ -37,6 +36,9 @@ def run():
 
 
 print("ending the crew...")
+
+if __name__ == "__main__":
+    run()
 
 r = requests.post(
     "https://api.pushover.net/1/messages.json",
