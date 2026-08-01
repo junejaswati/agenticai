@@ -41,4 +41,15 @@ def run():
 
 print("ending the crew...")
 
+r = requests.post(
+    "https://api.pushover.net/1/messages.json",
+    data={
+        "token": os.getenv("PUSHOVER_TOKEN"),
+        "user": os.getenv("PUSHOVER_USER"),
+        "message": "Agent finished running!"
+    }
+)
+
+print("Pushover response:", r.text)
+
     
