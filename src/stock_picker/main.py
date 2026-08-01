@@ -6,7 +6,8 @@ from dotenv import load_dotenv
 
 from datetime import datetime
 
-from crew import StockPicker
+from stock_picker.crew import StockPicker
+
 
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 

@@ -26,7 +26,7 @@ jobs:
           PUSHOVER_TOKEN: ${{ secrets.PUSHOVER_TOKEN }}
           PUSHOVER_USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
           PYTHONPATH: src
-        run: python src/stock_picker/main.py
+        run: python -m stock_picker.main
 
 
 
