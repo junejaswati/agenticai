@@ -20,7 +20,7 @@ load_dotenv()
 
 SERPER_API_KEY = os.getenv("SERPER_API_KEY")
 PUSHOVER_TOKEN = os.getenv("PUSHOVER_TOKEN")
-PUSHOVER_USER_KEY = os.getenv("PUSHOVER_USER_KEY")
+PUSHOVER_USER_KEY = os.getenv("PUSHOVER_USER")
 
 def run():
     """
