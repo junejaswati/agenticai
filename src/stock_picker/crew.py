@@ -3,7 +3,7 @@ from crewai.project import CrewBase, agent, crew, task
 from crewai.agents.agent_builder.base_agent import BaseAgent
 from pydantic import BaseModel, Field
 from crewai_tools import SerperDevTool
-from tools.push_tool import send_push_notification
+from .tools.push_tool import send_push_notification
 
 
 class TrendingCompany(BaseModel):
