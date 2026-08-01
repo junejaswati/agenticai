@@ -3,9 +3,11 @@ name: Daily Agent Run
 on:
   schedule:
     - cron: "*/2 * * * *"
+  workflow_dispatch:
 jobs:
   run-agent:
     runs-on: ubuntu-latest
+
     steps:
       - name: checkout code
         uses: actions/checkout@v4
