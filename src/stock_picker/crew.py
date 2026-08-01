@@ -3,7 +3,7 @@ from crewai.project import CrewBase, agent, crew, task
 from crewai.agents.agent_builder.base_agent import BaseAgent
 from pydantic import BaseModel, Field
 from crewai_tools import SerperDevTool
-from .tools.push_tool import send_push_notification
+from tools.push_tool import send_push_notification
 
 
 class TrendingCompany(BaseModel):
@@ -74,10 +74,11 @@ class StockPicker():
         """Creates the StockPicker crew"""
         # To learn how to add knowledge sources to your crew, check out the documentation:
         # https://docs.crewai.com/concepts/knowledge#what-is-knowledge
-
+print("Creating the crew...")
         manager = Agent(
             config=self.agents_config['manager'],
             allow_delegation=True
+            print("ending the manager...")
         )
             
         return Crew(
