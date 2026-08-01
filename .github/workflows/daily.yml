@@ -3,30 +3,7 @@ name: Daily Agent Run
 on:
   schedule:
     - cron: '*/2 * * * *'  
-  workflow_dispatch:
-
-jobs:
-  run-agent:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.10"
-
-      - run: pip install -r requirements.txt
-
-      - name: Run agent
-        working-directory: ${{ github.workspace }}
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
-          PUSHOVER_TOKEN: ${{ secrets.PUSHOVER_TOKEN }}
-          PUSHOVER_USER:  ${{ secrets.PUSHOVER_USER }}
-          PYTHONPATH: src
-        run: python -m stock_picker.main
+ 
 
 
 
