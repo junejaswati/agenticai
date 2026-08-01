@@ -3,6 +3,7 @@ import sys
 import warnings
 import os
 from dotenv import load_dotenv
+import requests
 
 from datetime import datetime
 
