@@ -78,9 +78,9 @@ class StockPicker():
         manager = Agent(
             config=self.agents_config['manager'],
             allow_delegation=True
-            print("ending the manager...")
-        )
             
+        )
+         print("ending the manager...")
         return Crew(
             agents=self.agents,
             tasks=self.tasks, 
@@ -91,3 +91,4 @@ class StockPicker():
             manager_agent=manager,
             embedder={"provider": "openai", "config": {"model": "text-embedding-3-small"}}
         )
+        print("ending the crew...")
