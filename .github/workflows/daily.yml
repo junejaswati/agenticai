@@ -1,8 +1,9 @@
 ---
 name: Daily Agent Run
+
 on:
   schedule:
-    - cron: "38 3 * * *"
+    - cron: "48 3 * * *"
   workflow_dispatch:
 jobs:
   run-agent:
